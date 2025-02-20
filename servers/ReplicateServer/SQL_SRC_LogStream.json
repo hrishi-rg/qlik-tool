@@ -1,5 +1,5 @@
 {
-    "name": "SQL_SRC_LogStream__2025-02-20--14-36-31-213050",
+    "name": "SQL_SRC_LogStream__2025-02-20--15-03-02-374840",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -184,5 +184,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:31.213050"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 15:03:02.374840"
 }
