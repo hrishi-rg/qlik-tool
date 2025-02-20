@@ -1,5 +1,5 @@
 {
-    "name": "Cus_1_SQL2SQL_VALID_1_TblSchNameCHG13__2025-02-17--12-20-03-895212",
+    "name": "Cus_1_SQL2SQL_VALID_1_TblSchNameCHG13__2025-02-20--14-36-51-182575",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -1033,5 +1033,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-17 12:20:03.895212"
+    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-20 14:36:51.182575"
 }
