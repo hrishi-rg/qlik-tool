@@ -1,5 +1,5 @@
 {
-    "name": "sql_server_to_sql_server__2025-02-17--12-20-06-988248",
+    "name": "sql_server_to_sql_server__2025-02-20--14-36-55-961836",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -158,5 +158,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-17 12:20:06.988248"
+    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-20 14:36:55.961836"
 }
