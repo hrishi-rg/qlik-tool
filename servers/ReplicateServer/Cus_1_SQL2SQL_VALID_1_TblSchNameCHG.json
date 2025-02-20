@@ -1,5 +1,5 @@
 {
-    "name": "Cus_1_SQL2SQL_VALID_1_TblSchNameCHG__2025-02-20--14-36-43-523466",
+    "name": "Cus_1_SQL2SQL_VALID_1_TblSchNameCHG__2025-02-20--15-03-15-235227",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -1033,5 +1033,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:43.523466"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 15:03:15.235227"
 }
