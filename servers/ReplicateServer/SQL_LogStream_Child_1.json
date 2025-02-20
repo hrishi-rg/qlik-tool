@@ -1,0 +1,105 @@
+{
+    "name": "SQL_LogStream_Child_1__2025-02-20--14-36-29-787083",
+    "cmd.replication_definition": {
+        "tasks": [
+            {
+                "task": {
+                    "name": "SQL_LogStream_Child_1",
+                    "source_name": "sql_src_2",
+                    "target_names": [
+                        "sql_tar_2"
+                    ]
+                },
+                "source": {
+                    "rep_source": {
+                        "source_name": "sql_src_2",
+                        "database_name": "sql_src_2"
+                    },
+                    "source_tables": {
+                        "name": "sql_src_2",
+                        "explicit_included_tables": [
+                            {
+                                "owner": "dbo",
+                                "name": "Table_1_TEST",
+                                "estimated_size": 8592,
+                                "orig_db_id": 1070626857
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_6_TEST",
+                                "estimated_size": 10815,
+                                "orig_db_id": 1806629479
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_8_TEST",
+                                "estimated_size": 9714,
+                                "orig_db_id": 2126630619
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_11_TEST",
+                                "estimated_size": 9629,
+                                "orig_db_id": 1134627085
+                            }
+                        ]
+                    }
+                },
+                "targets": [
+                    {
+                        "rep_target": {
+                            "target_name": "sql_tar_2",
+                            "target_state": "DISABLED",
+                            "database_name": "sql_tar_2"
+                        }
+                    }
+                ],
+                "task_settings": {
+                    "source_settings": {},
+                    "target_settings": {
+                        "queue_settings": {
+                            "message_shape": {},
+                            "key_shape": {}
+                        },
+                        "ftm_settings": {}
+                    },
+                    "sorter_settings": {
+                        "local_transactions_storage": {}
+                    },
+                    "common_settings": {
+                        "change_table_settings": {
+                            "handle_ddl": false,
+                            "header_columns_settings": {}
+                        },
+                        "audit_table_settings": {},
+                        "dr_settings": {},
+                        "statistics_table_settings": {},
+                        "bidi_table_settings": {},
+                        "task_uuid": "c78c491d-8c71-a74b-bc61-f5088c9e4c98",
+                        "status_table_settings": {},
+                        "suspended_tables_table_settings": {},
+                        "history_table_settings": {},
+                        "exception_table_settings": {},
+                        "recovery_table_settings": {},
+                        "data_batching_settings": {},
+                        "data_batching_table_settings": {},
+                        "log_stream_settings_depricated": {},
+                        "ddl_history_table_settings": {},
+                        "customized_charset_settings": {
+                            "validation": {
+                                "sub_char": 0
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_version": {
+        "version": "2023.11.0.282",
+        "version_major": 2023,
+        "version_minor": 11,
+        "version_revision": 282
+    },
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:29.787083"
+}
