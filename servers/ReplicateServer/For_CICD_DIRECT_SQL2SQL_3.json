@@ -1,5 +1,5 @@
 {
-    "name": "For_CICD_DIRECT_SQL2SQL_3__2025-02-20--14-36-52-859252",
+    "name": "For_CICD_DIRECT_SQL2SQL_3__2025-02-20--15-03-24-899279",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -1033,5 +1033,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:52.859252"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 15:03:24.899279"
 }
