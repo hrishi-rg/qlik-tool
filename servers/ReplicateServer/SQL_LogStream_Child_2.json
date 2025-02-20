@@ -1,5 +1,5 @@
 {
-    "name": "SQL_LogStream_Child_2__2025-02-20--14-36-28-141823",
+    "name": "SQL_LogStream_Child_2__2025-02-20--15-02-58-127381",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -95,5 +95,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:28.141823"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 15:02:58.127381"
 }
