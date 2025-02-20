@@ -1,5 +1,5 @@
 {
-    "name": "Cus_1_SRC_SQL_2_TAR_SQL__2025-02-20--14-36-53-611494",
+    "name": "Cus_1_SRC_SQL_2_TAR_SQL__2025-02-20--15-05-35-330487",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -1023,5 +1023,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-20 14:36:53.611494"
+    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-20 15:05:35.330487"
 }
