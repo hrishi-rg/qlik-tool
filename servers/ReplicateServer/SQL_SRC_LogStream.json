@@ -1,0 +1,188 @@
+{
+    "name": "SQL_SRC_LogStream__2025-02-20--14-36-31-213050",
+    "cmd.replication_definition": {
+        "tasks": [
+            {
+                "task": {
+                    "name": "SQL_SRC_LogStream",
+                    "source_name": "sql_src_1",
+                    "target_names": [
+                        "LogSTream_Target"
+                    ],
+                    "task_type": "_LOG_STREAM"
+                },
+                "source": {
+                    "rep_source": {
+                        "source_name": "sql_src_1",
+                        "database_name": "sql_src_1"
+                    },
+                    "source_tables": {
+                        "name": "sql_src_1",
+                        "explicit_included_tables": [
+                            {
+                                "owner": "dbo",
+                                "name": "Table_1_TEST",
+                                "estimated_size": 8592,
+                                "orig_db_id": 1070626857,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_6_TEST",
+                                "estimated_size": 10815,
+                                "orig_db_id": 1806629479,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_8_TEST",
+                                "estimated_size": 9714,
+                                "orig_db_id": 2126630619,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_11_TEST",
+                                "estimated_size": 9629,
+                                "orig_db_id": 1134627085,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_12_TEST",
+                                "estimated_size": 10312,
+                                "orig_db_id": 1166627199,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_13_TEST",
+                                "estimated_size": 10175,
+                                "orig_db_id": 1198627313,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_15_TEST",
+                                "estimated_size": 10240,
+                                "orig_db_id": 1230627427,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_17_TEST",
+                                "estimated_size": 9286,
+                                "orig_db_id": 1262627541,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_20_TEST",
+                                "estimated_size": 7720,
+                                "orig_db_id": 1294627655,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_22_TEST",
+                                "estimated_size": 9876,
+                                "orig_db_id": 1326627769,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_23_TEST",
+                                "estimated_size": 8891,
+                                "orig_db_id": 1358627883,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_25_TEST",
+                                "estimated_size": 7900,
+                                "orig_db_id": 1390627997,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_31_TEST",
+                                "estimated_size": 10023,
+                                "orig_db_id": 1422628111,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_38_TEST",
+                                "estimated_size": 10882,
+                                "orig_db_id": 1454628225,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_39_TEST",
+                                "estimated_size": 10364,
+                                "orig_db_id": 1486628339,
+                                "validation_sampling_percentage": 0
+                            }
+                        ]
+                    }
+                },
+                "targets": [
+                    {
+                        "rep_target": {
+                            "target_name": "LogSTream_Target",
+                            "target_state": "DISABLED",
+                            "database_name": "LogSTream_Target"
+                        }
+                    }
+                ],
+                "task_settings": {
+                    "source_settings": {},
+                    "target_settings": {
+                        "queue_settings": {
+                            "message_shape": {},
+                            "key_shape": {}
+                        },
+                        "ftm_settings": {}
+                    },
+                    "sorter_settings": {
+                        "local_transactions_storage": {}
+                    },
+                    "common_settings": {
+                        "change_table_settings": {
+                            "handle_ddl": false,
+                            "header_columns_settings": {}
+                        },
+                        "full_load_enabled": false,
+                        "audit_table_settings": {},
+                        "dr_settings": {},
+                        "statistics_table_settings": {},
+                        "bidi_table_settings": {},
+                        "task_uuid": "20137de0-30e7-fd43-9c2d-f24ee7eff683",
+                        "status_table_settings": {},
+                        "suspended_tables_table_settings": {},
+                        "history_table_settings": {},
+                        "exception_table_settings": {},
+                        "recovery_table_settings": {},
+                        "data_batching_settings": {},
+                        "data_batching_table_settings": {},
+                        "log_stream_settings_depricated": {},
+                        "ddl_history_table_settings": {},
+                        "customized_charset_settings": {
+                            "validation": {
+                                "sub_char": 0
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_version": {
+        "version": "2023.11.0.282",
+        "version_major": 2023,
+        "version_minor": 11,
+        "version_revision": 282
+    },
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:31.213050"
+}
