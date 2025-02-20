@@ -1,5 +1,5 @@
 {
-    "name": "sqltomysql__2025-02-20--14-37-11-432762",
+    "name": "sqltomysql__2025-02-20--15-03-45-111894",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -92,5 +92,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:37:11.432762"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 15:03:45.111894"
 }
