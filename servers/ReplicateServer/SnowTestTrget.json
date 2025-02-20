@@ -1,5 +1,5 @@
 {
-    "name": "SnowTestTrget__2025-02-20--14-36-34-001368",
+    "name": "SnowTestTrget__2025-02-20--15-03-04-470118",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -96,5 +96,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 14:36:34.001368"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-20 15:03:04.470118"
 }
