@@ -1,5 +1,5 @@
 {
-    "name": "sql_server_to_sql_server23__2025-02-16--22-50-13-521237",
+    "name": "sql_server_to_sql_server23__2025-02-20--01-07-49-318139",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -158,5 +158,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-65FFED5, Time: 2025-02-16 22:50:13.521237"
+    "description": "Host name: DESKTOP-65FFED5, Time: 2025-02-20 01:07:49.318139"
 }
