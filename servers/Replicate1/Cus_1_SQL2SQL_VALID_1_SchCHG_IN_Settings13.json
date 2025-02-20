@@ -1,5 +1,5 @@
 {
-    "name": "Cus_1_SQL2SQL_VALID_1_SchCHG_IN_Settings13__2025-02-16--23-00-37-864992",
+    "name": "Cus_1_SQL2SQL_VALID_1_SchCHG_IN_Settings13__2025-02-20--01-07-47-146264",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -1025,5 +1025,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-65FFED5, Time: 2025-02-16 23:00:37.864992"
+    "description": "Host name: DESKTOP-65FFED5, Time: 2025-02-20 01:07:47.146264"
 }
